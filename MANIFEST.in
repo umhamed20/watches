@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include watches *.css
+recursive-include watches *.csv
+recursive-include watches *.html
+recursive-include watches *.ico
+recursive-include watches *.js
+recursive-include watches *.json
+recursive-include watches *.md
+recursive-include watches *.png
+recursive-include watches *.py
+recursive-include watches *.svg
+recursive-include watches *.txt
+recursive-exclude watches *.pyc
